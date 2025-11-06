@@ -45,10 +45,41 @@ nav {
 }
 
 .list-links li {
-    margin: 16px 0;
+  margin: 16px 0;
 }
 
 .list-links li a {
   text-decoration: none;
   color: var(--text-secondary-color);
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation-menu {
+    margin-top: 0;
+    width: 427px;
+    height: 29px;
+  }
+
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    max-height: none !important;
+    position: static;
+    display: block;
+  }
+
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding-left: 0;
+  }
+
+  .navigation-menu li {
+    margin: 0 0 16px 0;
+  }
 }

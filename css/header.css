@@ -14,11 +14,11 @@ header {
   height: 64px;
 }
 
-.logo-mobile {
+.img-mobile {
     display: block;
 }
 
-.logo-desktop {
+.img-desktop {
     display: none;
 }
 
@@ -69,14 +69,6 @@ nav {
     width: 427px;
     height: 29px;
   }
-
-  .img-desktop {
-        display: none;
-    }
-
-    .img-mobile {
-        display: block;
-    }
 
   .navigation-menu label {
     display: none;

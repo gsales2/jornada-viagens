@@ -70,6 +70,14 @@ nav {
     height: 29px;
   }
 
+  .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
   .navigation-menu label {
     display: none;
   }

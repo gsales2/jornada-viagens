@@ -33,3 +33,11 @@
     font-size: 1.75rem;
     margin: 0 0 41px 0;
 }
+
+@media screen and (min-width: 768px) {
+    .category-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}

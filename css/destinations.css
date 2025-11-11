@@ -37,9 +37,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .destinations {
-        width: 648px;
-    }
 
     .destinations .item .img-item {
         width: 100%;
@@ -63,9 +60,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .destinations {
-        width: 900px;
-    }
 
     .destination-items {
         width: 100%;

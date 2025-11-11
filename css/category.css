@@ -25,8 +25,6 @@
 
 .cards-links h4 {
     color: var(--text-primary-color);
-    font-weight: var(--title-weight);
-    font-size: 1.75rem;
     margin: 0 0 41px 0;
 }
 

@@ -25,15 +25,10 @@
 }
 
 .destinations .item header h4 {
-    font-size: 28px;
-    font-weight: var(--title-weight);
     margin: 24px 0;
 }
 
 .destinations .item p {
-    font-size: 20px;
-    font-weight: var(--text-weight);
-    line-height: 32px;
     margin-bottom: 24px;
 }
 
@@ -42,9 +37,6 @@
 }
 
 @media screen and (min-width: 768px) {
-    .destinations {
-        width: 648px;
-    }
 
     .destinations .item .img-item {
         width: 100%;
@@ -68,9 +60,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .destinations {
-        width: 900px;
-    }
 
     .destination-items {
         width: 100%;

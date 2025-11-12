@@ -50,7 +50,8 @@ section {
 }
 
 section.hero,
-section.category {
+section.category,
+section.hero-footer {
   width: 100%;
   margin: 0;
 }

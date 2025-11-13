@@ -1,0 +1,23 @@
+.hero-footer-pacotes .hero-footer-pacotes-img {
+    width: 100%;
+    height: 400px;
+    background: url(../img/hero-footer-pacotes-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-footer-pacotes .hero-footer-pacotes-img {
+    background: url(../img/hero-footer-pacotes-tablet.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }}
+
+@media screen and (min-width: 1440px) {
+  .hero-footer-pacotes .hero-footer-pacotes-img {
+    height: 600px;
+    background: url(../img/hero-footer-pacotes-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }}
+  

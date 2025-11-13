@@ -51,7 +51,8 @@ section {
 
 section.hero,
 section.category,
-section.hero-footer {
+section.hero-footer,
+section.hero-footer-pacotes {
   width: 100%;
   margin: 0;
 }

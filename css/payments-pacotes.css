@@ -1,0 +1,106 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.payments .content-container .text-content h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.payments .content-container .text-content .button {
+    display: block;
+    margin-top: 24px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.payments .image-gallery .image.construcao {
+    background: url(../img/construcao-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.payments .image-gallery .image.cidade {
+    background: url(../img/cidade-mobile.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.payments .image-gallery .image.gueixa{
+    background: url(../img/gueixa-mobile.png) no-repeat;
+}
+
+.payments .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+
+    .payments .content-container .text-content .button {
+    display: none;
+}
+    .payments .image-gallery .image.construcao {
+    background: url(../img/construcao-tablet.png) no-repeat;
+}
+
+.payments .image-gallery .image.cidade {
+    background: url(../img/cidade-tablet.png) no-repeat;
+}
+
+.payments .image-gallery .image.gueixa{
+    background: url(../img/gueixa-tablet.png) no-repeat;
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .content-container {
+    flex-direction: row;
+}
+    .payments .image-gallery .image.construcao {
+    background: url(../img/construcao-desktop.png) no-repeat;
+}
+
+.payments .image-gallery .image.cidade {
+    background: url(../img/cidade-desktop.png) no-repeat;
+}
+
+.payments .image-gallery .image.gueixa{
+    background: url(../img/gueixa-desktop.png) no-repeat;
+}
+
+.text-content {
+    width: 384px;
+    margin: 96px 24px 96px 0;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .content-container {
+    flex-direction: row;
+}
+    .payments .image-gallery .image.construcao {
+    background: url(../img/construcao-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.payments .image-gallery .image.cidade {
+    background: url(../img/cidade-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.payments .image-gallery .image.gueixa{
+    background: url(../img/gueixa-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+}
